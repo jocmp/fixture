@@ -1,6 +1,6 @@
 {
   "name": "amp-fixture",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "types": "lib",
   "main": "dist/index.js",
   "license": "MIT",
