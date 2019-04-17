@@ -1,32 +1,22 @@
 {
-  "name": "fixture",
+  "name": "amp-fixture",
   "version": "0.0.1",
   "types": "lib",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "Shopify Inc.",
-  "description": "Utilities for generating fixture objects from GraphQL documents.",
-  "publishConfig": {
-    "access": "public",
-    "@shopify:registry": "https://registry.npmjs.org"
-  },
+  "author": "Josiah Campbell",
+  "description": "GraphQL fixtures",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shopify/graphql-tools-web.git"
+    "url": "git+https://github.com/jocmp/fixture.git"
   },
-  "bugs": {
-    "url": "https://github.com/shopify/graphql-tools-web/issues"
-  },
-  "homepage": "https://github.com/shopify/graphql-tools-web/blob/master/packages/graphql-fixtures",
   "scripts": {
     "build": "tsc",
     "pretest": "yarn build",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "test": "jest"
   },
   "dependencies": {
-    "@shopify/useful-types": "^1.1.2",
-    "@types/faker": "^4.1.2",
-    "@types/graphql": "^14.0.0",
     "apollo-codegen-core": "^0.33.3",
     "core-js": "^3.0.1",
     "faker": "^4.1.0",
@@ -34,13 +24,11 @@
     "graphql-tool-utilities": "^0.10.1",
     "graphql-typed": "^0.4.1"
   },
-  "peerDependencies": {
-    "graphql-typed": "^0.4.0"
-  },
   "devDependencies": {
+    "@types/faker": "^4.1.2",
+    "@types/graphql": "^14.0.0",
     "@types/jest": "^24.0.11",
     "@types/node": "^11.13.4",
-    "faker": "^4.1.0",
     "jest": "^24.7.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.3"
