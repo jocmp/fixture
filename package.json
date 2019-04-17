@@ -1,8 +1,8 @@
 {
-  "name": "graphql-fixtures",
-  "version": "0.8.2",
+  "name": "fixture",
+  "version": "0.0.1",
   "types": "lib",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "author": "Shopify Inc.",
   "description": "Utilities for generating fixture objects from GraphQL documents.",
@@ -31,7 +31,8 @@
     "core-js": "^3.0.1",
     "faker": "^4.1.0",
     "graphql": "^14.0.0",
-    "graphql-tool-utilities": "^0.10.1"
+    "graphql-tool-utilities": "^0.10.1",
+    "graphql-typed": "^0.4.1"
   },
   "peerDependencies": {
     "graphql-typed": "^0.4.0"
@@ -40,7 +41,6 @@
     "@types/jest": "^24.0.11",
     "@types/node": "^11.13.4",
     "faker": "^4.1.0",
-    "graphql-typed": "^0.4.1",
     "jest": "^24.7.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.3"

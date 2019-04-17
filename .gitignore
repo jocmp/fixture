@@ -11,3 +11,4 @@ packages/graphql-typescript-definitions/test/fixtures/**/*.d.ts
 /lerna-debug.log
 yarn-error.log
 .eslintcache
+node_modules
